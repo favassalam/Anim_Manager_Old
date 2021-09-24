@@ -10,18 +10,18 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    TOKEN = ""
-    OWNER_ID = "1501128718" # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_NAME = "SenuGamerBoy"
+    TOKEN = "1844181327:AAGqZH-Kd4S2mI9v7ayvp-R9eDekATwJl3Y"
+    OWNER_ID = "1106700477" # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_NAME = "OneOfAK1nd"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://rmdhfuywqjmltm:f52e3108006001f7a2677c7be9734c62ed5c1cba7d9841a9d64c18c99e448930@ec2-34-237-166-54.compute-1.amazonaws.com:5432/d4oqetherjjiso'  # needed for any database modules
     LOAD = []
     NO_LOAD = ['translation', 'rss']
     WEBHOOK = False
-    URL = https://<appname>.herokuapp.com/
+    URL = https://pokpak.herokuapp.com/
     ENV = ANYTHING
-    DEV_USERS = "1391755824"
+    DEV_USERS = "1106700477"
 
     # OPTIONAL
     SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
